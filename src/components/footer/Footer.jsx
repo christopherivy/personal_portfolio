@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Smith</h1>
+        <h1 className="footer__title">Ivy</h1>
 
         <ul className="footer__list">
           <li>
@@ -20,42 +20,28 @@ const Footer = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a href="#testimonials" className="footer__link">
               Testimonials
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <div className="footer__social">
-          <a
-            href="https://www.facebook.com/"
-            className="footer__social-link"
-            target="_blank"
-          >
+          <a href="https://www.facebook.com/" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-facebook"></i>
           </a>
 
-          <a
-            href="https://www.instagram.com/"
-            className="footer__social-link"
-            target="_blank"
-          >
+          <a href="https://www.instagram.com/" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-instagram"></i>
           </a>
 
-          <a
-            href="https://twitter.com/"
-            className="footer__social-link"
-            target="_blank"
-          >
+          <a href="https://twitter.com/" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-twitter"></i>
           </a>
         </div>
 
-        <span className="footer__copy">
-          &#169; Crypticalcoder. All rigths reserved
-        </span>
+        <span className="footer__copy">&#169; Crypticalcoder. All rigths reserved</span>
       </div>
     </footer>
   );

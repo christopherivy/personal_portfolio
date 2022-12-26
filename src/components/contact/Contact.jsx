@@ -28,7 +28,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">cdi.747@gmail.com</span>
 
-              <a href="https://www.google.com" className="contact__button">
+              <a href="mailto:cdi.747@gmail.com" target="_blank" rel="noreferrer" className="contact__button">
                 Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -39,7 +39,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Mobile</h3>
               <span className="contact__card-data">216-200-7850</span>
 
-              <a href="https://voice.google.com/about, more information!" className="contact__button">
+              <a href="https://voice.google.com/about, more information!" target="_blank" rel="noreferrer" className="contact__button">
                 Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>

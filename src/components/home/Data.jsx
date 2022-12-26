@@ -29,7 +29,6 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Full Stack Engineer</h3>
       <p className="home__description">I am a Military Veteran with 8 years of honorable service (2007-2015) and a Software Engineer. I enjoy working in team environments and constantly improving my skills.</p>
-
       <a href="#contact" className="button button--flex">
         Get in touch
         <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
